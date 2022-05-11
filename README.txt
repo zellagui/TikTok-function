@@ -50,6 +50,3 @@ Main:
     connexion_loop(cursor)
 
 
-For next run make sur :
-    -API key still working
-    -get the good file path for list_#
