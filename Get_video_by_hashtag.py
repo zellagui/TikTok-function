@@ -2,7 +2,7 @@ import requests
 import json
 import os
 
-id = '20884' #MTL
+id = '20884' #Viral         id = hashtag id
 
 all_video_data = []
 all_hashtag_data = []
@@ -10,7 +10,7 @@ all_hashtag_data = []
 def first_connexion():
 
     headers = {
-        'X-API-KEY': '37maK1w2e7oDLhQdOGDoLG9rubDTXX5i',
+        'X-API-KEY': 'XXXXXXXXXXXXXXXXXXXXXXXXX',
         'accept': 'application/json',
     }
     params = {
@@ -145,7 +145,7 @@ def connexion_loop(cursor):
     NB_PAGE = 2 #Number of page returned [By 30 items in each page]. Already one called (get_data_content), so Add 1.
     for i in range(NB_PAGE):
         headers = {
-            'X-API-KEY': '37maK1w2e7oDLhQdOGDoLG9rubDTXX5i',
+            'X-API-KEY': 'XXXXXXXXXXXXXXXXXXXXXXXXXXX',
             'accept': 'application/json',
         }
         params = {
